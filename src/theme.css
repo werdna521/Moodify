@@ -18,6 +18,10 @@
 // https://beta.ionicframework.com/docs/theming/color-generator
 */
 
+* {
+  --ion-background-color: #000000;
+}
+
 :root {
   --ion-color-angular: #ac282b;
   --ion-color-communication: #8e8d93;

@@ -1,0 +1,9 @@
+.app {
+    --ion-background-color: #231f1e;
+    --ion-text-color: #ffffff;
+}
+
+.moodify-icon {
+    width: 48px;
+    height: 48px;
+}

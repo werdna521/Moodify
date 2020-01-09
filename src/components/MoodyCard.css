@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.moody-card {
+    width: 125px;
+    height: 175px;
+}
+
+.moody-card-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+}
+
+.moody-card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    margin-top: 4px;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import { IonHeader, IonToolbar, IonPage, IonTitle, IonContent } from '@ionic/react';
 
-const Tab3Page: React.FC = () => {
+const LibraryPage = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab Three</IonTitle>
+          <IonTitle>Library (On Process)</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent />
@@ -14,4 +14,4 @@ const Tab3Page: React.FC = () => {
   );
 };
 
-export default Tab3Page;
+export default LibraryPage;

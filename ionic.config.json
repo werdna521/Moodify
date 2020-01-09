@@ -1,5 +1,7 @@
 {
   "name": "Moodify",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
