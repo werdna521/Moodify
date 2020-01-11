@@ -1,0 +1,19 @@
+.moody-sheet {
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moody-sheet-img {
+    width: 35vw;
+    height: 35vw;
+}
+
+.moody-sheet-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-top: 4px;
+}

@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
-
 .moodify-headline {
-    font-family: 'Calistoga', cursive;
+    font-weight: 600;
     font-size: 20px;
 }
 

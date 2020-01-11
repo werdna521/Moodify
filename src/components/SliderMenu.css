@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+.moodify-slider-menu {
+    width: 100vw;
+    padding: 16px;
+}
+
+.moodify-slider-menu-item {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+}

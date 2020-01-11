@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+.moodify-horizontal-menu {
+    display: flex;
+    padding: 0 8px;
+}
+
+.moodify-horizontal-menu-item {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.moodify-horizontal-menu-item-active {
+    border-bottom: 3px solid #0b9ad2;
+}

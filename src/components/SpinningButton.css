@@ -1,20 +1,26 @@
 .spinning-button {
     width: 100%;
+    height: 60%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .spinning-button-circle {
-    animation: neon 1.5s ease-in-out infinite alternate;
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
-    background: rgb(205,248,255);
     background: linear-gradient(90deg, rgba(205,248,255,1) 0%, rgba(0,190,228,1) 49%, rgba(22,155,213,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1001;
+    box-shadow: 0 0 0 0 rgba(104, 192, 210, 0.7);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.spinning-button-img {
+    width: 25vw;
 }
 
 .spinning-moodify-dark {
@@ -22,17 +28,8 @@
     height: 30vw;
 }
 
-@keyframes spinning-button {
-    100% {
-        transform: rotateZ(360deg);
-    }
-}
-
-@keyframes neon {
-    from {
-        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #169bd5, 0 0 70px #169bd5, 0 0 80px #169bd5, 0 0 100px #169bd5, 0 0 125px #169bd5;
-    }
+@keyframes pulse {
     to {
-        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #169bd5, 0 0 35px #169bd5, 0 0 40px #169bd5, 0 0 45px #169bd5, 0 0 50px #169bd5;
+        box-shadow: 0 0 0 45px rgba(104, 192, 210, 0);
     }
 }
